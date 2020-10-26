@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+*{
+    box-sizing: border-box;
+}
+
+.news__image-wrapper{
+    float: left;
+}
+
+.card{
+    max-width: 480px;
+  
+}
+  
+.card__header{
+    font-size: 28px;
+    font-weight: bold;
+    font-style: normal;
+     margin: 0px 8px;
+   padding-bottom: 8px;
+    }
+
+.card__paragraph{
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+color: #555770;
+align-self: flex-start;
+margin: 0px 8px;
+text-align: justify;
+padding-bottom: 8px;
+}
+
+.card__sign-up{
+ color:#3366FF;
+ font-size: 14px;
+ letter-spacing: 0.75px;
+text-transform: uppercase;
+padding-left: 35%;
+display: flex;
+  
+}
+
+.card__image{
+    border: 1px;
+}
+
+.news__title{
+font-family: Inter;
+font-style: normal;
+font-weight: bold;
+font-size: 28px;
+margin: 0px 8px;
+}
+
+.news__text{
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+color: #555770;
+margin: 0px 8px;
+
+}
+
+.news__card__sign-up{
+   
+    padding-left: 55%;
+   
+}
